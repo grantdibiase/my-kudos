@@ -6,7 +6,7 @@ export function CSSBasicsDemo() {
       <div className="box-model-demo">
         <h3>Box Model</h3>
         <div className="box-example"> {/* 2. box-example class */}
-          <div className="content">Content</div>
+          <div className="content">Grant</div>
         </div>
       </div>
     </div>
