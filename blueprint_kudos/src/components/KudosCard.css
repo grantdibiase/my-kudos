@@ -1,0 +1,61 @@
+/* src/components/KudosCard.css */
+
+.kudos-card {
+
+	/* Box Model */
+	width: 100%; /* Full width of container */
+	max-width: 400px; /* Maximum width */
+	padding: 24px; /* Space inside the card */
+	margin: 16px 0; /* Space above and below */
+	border: 1px solid #e2e8f0; /* Light gray border */
+	border-radius: 12px; /* Rounded corners */
+	
+	/* Layout */
+	display: flex; /* Make it a flex container */
+	flex-direction: column; /* Stack children vertically */
+	gap: 16px; /* Space between children */
+	
+	/* Colors */
+	background-color: #ffffff; /* White background */
+	color: #1e293b; /* Dark gray text */
+	
+	/* Typography */
+	font-family: 'Inter', -apple-system, sans-serif; /* Font family */
+	font-size: 14px; /* Base font size */
+	line-height: 1.5; /* Line spacing */
+	
+	/* Visual Effects */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */	
+	transition: all 0.2s ease; /* Smooth transitions */
+}
+	/* ...prior code... */
+
+.kudos-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+	/* ...prior code... */
+
+.kudos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.recipient-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0;
+}
+
+.kudos-type {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
