@@ -1,7 +1,9 @@
 // src/App.tsx
-import React from 'react';
+import { useState } from 'react';
 import { KudosCard } from './components/KudosCard';
+import { KudosForm } from './components/KudosForm';  // ← Add this
 import './components/KudosCard.css';
+import './App.css';
 
 function App() {
   const sampleKudos = [
