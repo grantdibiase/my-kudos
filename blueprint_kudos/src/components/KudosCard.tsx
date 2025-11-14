@@ -4,7 +4,7 @@ interface KudosCardProps {
   recipient: string;
   message: string;
   giver: string;
-  type: 'kudos' | 'feedback';
+  type: 'kudos' |'feedback';
   date: string;
 }
 
